@@ -2,18 +2,21 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.7",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.7",
-    "vite": "^6.3.5"
+    "tailwindcss": "^4.1.7"
   },
   "name": "web1",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "vite"
+    "build": "vite build",
+    "dev":"vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
 }
